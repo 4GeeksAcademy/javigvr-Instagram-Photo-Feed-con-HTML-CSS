@@ -1,0 +1,44 @@
+header h1{
+    text-align: center;
+}
+body{
+    background-color: #f798e1;
+    display: center;
+    align-content: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.post {
+    justify-content: center;
+    width: 50%;
+    background: #17e0ff;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-img {
+    display: center;
+    size-adjust: 100%;
+    height: 200px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
